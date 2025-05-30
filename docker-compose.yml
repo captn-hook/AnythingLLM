@@ -23,6 +23,7 @@ services:
       - WHISPER_PROVIDER=local
       - TTS_PROVIDER=native
       - PASSWORDMINCHAR=8
+      - SERVER_PORT=8080
     volumes:
       - anythingllm_storage:/app/server/storage
     restart: always
