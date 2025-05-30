@@ -53,7 +53,7 @@ volumes:
     driver_opts:
       type: none
       o: bind
-      device: ~/AnythingLLM-Storage
+      device: ${VOLUME_PATH}/AnythingLLM-Storage
   ollama_data:
 
 networks:
